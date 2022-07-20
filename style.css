@@ -10,6 +10,8 @@ main {
 For banner section
 ------------------ 
 -----------------*/
+
+
 .container1 {
     width: 1050px;
     background-color: rgb(0, 0, 0);
@@ -95,7 +97,7 @@ Match section
 .container4 {
     width: 1200px;
     margin-top: 30px;
-    padding-bottom: 125px;
+    padding-bottom: 80px;
 
 }
 
@@ -143,6 +145,12 @@ Match section
     font-size: 20px;
 }
 
+.btn3 a {
+    text-decoration: none;
+    color: #ffff;
+
+}
+
 .courses {
     border-radius: 10px;
     box-shadow: 0px 2px 5px 4px #888888;
@@ -172,4 +180,64 @@ Match section
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-evenly;
     align-items: center;
+}
+
+/*-------------------
+---------------------
+   Footer section 
+ --------------------
+ ------------------*/
+.container5 {
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+.foot {
+    padding: 100px;
+    margin: 60px 60px -7px 60px;
+}
+
+.foot h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+hr {
+    color: #9a9a9a;
+}
+
+.foot ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.foot ul li {
+    color: #9a9a9a;
+    font-size: 20px;
+}
+
+/* Responsive for tab */
+@media only screen and (max-width: 600px) {
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    .banner-con h1 {
+        font-size: 28px;
+    }
+
+    .banner-btn {
+        padding: 5px 7px;
+        font-size: 10px;
+        margin-top: 25px;
+    }
 }
